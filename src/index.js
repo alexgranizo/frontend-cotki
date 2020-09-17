@@ -1,5 +1,5 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import HelloWorld from "./components/helloWorld";
+import Index from "./components/index";
 
-ReactDOM.render(<HelloWorld />, document.getElementById("app "));
+ReactDOM.render(<Index />, document.getElementById("app"));

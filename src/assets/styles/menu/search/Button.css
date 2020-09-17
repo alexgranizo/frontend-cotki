@@ -1,0 +1,54 @@
+.button-for-searching {
+  background-color: #ff6948;
+  border: none;
+  height: 40px;
+  width: 45px;
+  right: 0;
+  position: absolute;
+  cursor: pointer;
+  border-radius: 0 4px 4px 0;
+  overflow: hidden;
+  white-space: nowrap;
+  outline: none;
+  z-index: 40;
+}
+.hidden {
+  display: none;
+}
+.button-searching-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.button-searching-container:hover {
+  background: #ff3e11;
+}
+.button-searching-text {
+  background-image: url("http://localhost:8080/src/assets/static/images/search_icon.svg");
+  /* // background-position: 10px 8px; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+  text-indent: -600px;
+  position: absolute;
+  white-space: nowrap;
+  top: 4px;
+  left: 5px;
+}
+.button-searching-input {
+  position: relative;
+  display: block;
+  background-color: #ff6948;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  outline-style: none;
+  text-indent: -1000px;
+  background: 0 0;
+  appearance: button;
+  transition: all 0.1s;
+  cursor: pointer;
+}

@@ -37,6 +37,17 @@ module.exports = {
           "css-loader",
         ],
       },
+      {
+        test: /\.(png|gif|jpg|svg)$/,
+        use: [
+          {
+            loader: "file-loader",
+            options: {
+              name: "assets/static/images/[hash].[ext]",
+            },
+          },
+        ],
+      },
     ],
   },
   plugins: [

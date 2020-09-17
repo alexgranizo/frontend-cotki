@@ -1,0 +1,13 @@
+.options-select {
+  position: absolute;
+  cursor: pointer;
+  height: 40px;
+  width: 100%;
+  line-height: 35px;
+  outline: 0;
+  margin: 0;
+  padding: 0;
+  opacity: 0;
+  border: 0;
+  transition: all 0.1s;
+}
