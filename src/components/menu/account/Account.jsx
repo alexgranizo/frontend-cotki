@@ -2,12 +2,9 @@ import React from "react";
 import Menu from "./Menu";
 
 class Account extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      active: false,
-    };
-  }
+  state = {
+    active: false,
+  };
   handleMouseOver = () => {
     this.setState({
       active: true,

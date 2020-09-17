@@ -1,7 +1,7 @@
 .top-navbar {
   color: #fff;
   background: #333333;
-  padding: 0;
+  padding: 0 2em;
   margin: 0;
   text-align: center;
   height: 60px;
@@ -11,13 +11,12 @@
   grid-template-rows: 60px;
   grid-gap: 5px;
   align-items: center;
-  grid-template-areas: "brand brand form form form form form form form form form form form account account  cart ";
+  grid-template-areas: "brand brand form form form form form form form form form form  account account cart cart ";
 }
 .menu-search {
   display: block;
   grid-area: form;
   padding-left: 4vw;
-  padding-right: 4vw;
 }
 .menu-account {
   grid-area: account;
