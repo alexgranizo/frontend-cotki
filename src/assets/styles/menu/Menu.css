@@ -11,12 +11,18 @@
   grid-template-rows: 60px;
   grid-gap: 5px;
   align-items: center;
-  grid-template-areas: "brand brand form form form form form form form form form form  account account cart cart ";
+  grid-template-areas: "brand brand form form form form form form form form form form form  account account  cart ";
+}
+@media screen and (max-width: 768px) {
+  .top-navbar {
+    grid-template-areas: "brand brand form form form form form form form form form form form  form account  cart ";
+  }
 }
 .menu-search {
   display: block;
   grid-area: form;
   padding-left: 4vw;
+  padding-right: 4vw;
 }
 .menu-account {
   grid-area: account;
@@ -30,4 +36,24 @@
 }
 .menu-cart {
   grid-area: cart;
+}
+
+@media screen and (max-width: 480px) {
+  .menu-search {
+    display: none;
+    margin-left: 4vw;
+    margin-right: 4vw;
+  }
+  .top-navbar {
+    padding: 0 1em;
+    grid-gap: 12px;
+    height: 50px;
+    align-content: center;
+  }
+}
+@media screen and (max-width: 320px) {
+  .top-navbar {
+    grid-template-areas: " brand brand brand brand brand brand  brand brand brand account account account cart cart cart cart";
+    grid-gap: 0;
+  }
 }

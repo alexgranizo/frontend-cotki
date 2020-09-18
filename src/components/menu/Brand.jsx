@@ -5,7 +5,7 @@ const Brand = () => {
   return (
     <div className="brand-logo">
       <a href="/">
-        <Logo height="50px" />
+        <Logo height="50px" className="brand-logo-svg" />
       </a>
     </div>
   );

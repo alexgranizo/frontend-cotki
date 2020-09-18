@@ -1,0 +1,63 @@
+.top-menu-account {
+  cursor: pointer;
+  height: 100%;
+  width: 100%;
+}
+.top-account-options {
+  position: absolute;
+  z-index: 50;
+  color: #ff3e11;
+  background-color: #efefef;
+  top: 60px;
+  display: none;
+  padding: 0.8em;
+}
+.top-menu-up {
+  width: 0;
+  height: 0;
+  border-right: 20px solid transparent;
+  border-left: 20px solid transparent;
+  border-bottom: 20px solid #efefef;
+  position: relative;
+  top: -28px;
+}
+
+.top-account-options ul {
+  padding: 0;
+}
+.top-account-options li {
+  font-size: 14px;
+  margin-bottom: 0.8em;
+}
+.top-account-options a {
+  color: #333333;
+}
+.top-account-options.top-account-unfold {
+  display: flex;
+  flex-direction: column;
+}
+.top-account-icon {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.9em;
+  font-family: "Rubik", sans-serif;
+}
+.top-account-profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+.top-account-icon span {
+  margin-left: 0.3rem;
+  font-size: 0.9em;
+}
+@media screen and (max-width: 768px) {
+  .top-account-icon span {
+    display: none;
+  }
+}

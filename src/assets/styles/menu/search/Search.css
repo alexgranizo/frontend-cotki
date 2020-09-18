@@ -1,5 +1,4 @@
 .search-form {
-  grid-area: form;
   display: flex;
   justify-content: center;
   align-content: center;
@@ -10,6 +9,7 @@
   padding-left: 10px;
   padding-right: 10px;
   width: 100%;
+  align-items: center;
 }
 
 .search-form-input {
@@ -23,8 +23,11 @@
 .search-form-input:focus {
   outline: none;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
   .search-form-input {
-    width: 20%;
+    height: 35px;
+  }
+  .search-form-input {
+    width: 60%;
   }
 }

@@ -52,3 +52,19 @@
   transition: all 0.1s;
   cursor: pointer;
 }
+@media screen and (max-width: 768px) {
+  .button-for-searching {
+    height: 35px;
+    width: 33px;
+    right: 5px;
+  }
+  .button-searching-text {
+    background-position: -2px 0px;
+    background-size: 25px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .button-for-searching {
+    right: -5px;
+  }
+}

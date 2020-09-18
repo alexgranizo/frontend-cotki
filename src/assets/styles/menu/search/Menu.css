@@ -56,3 +56,18 @@
   width: 1em;
   height: 1em;
 }
+@media screen and (max-width: 768px) {
+  .container-search-menu {
+    display: flex;
+    align-items: center;
+  }
+  .search-menu-navbar {
+    height: 35px;
+  }
+  .search-menu-navbar {
+    width: 8.5em;
+  }
+  .search-menu-navbar span {
+    font-size: 0.9em;
+  }
+}
