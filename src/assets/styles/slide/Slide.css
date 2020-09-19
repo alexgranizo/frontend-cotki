@@ -1,0 +1,15 @@
+.main-slide-home {
+  height: 35vh;
+}
+.main-slide-container {
+  height: 35vh;
+}
+.slide-each-fade {
+  height: 35vh;
+  display: flex;
+}
+
+.slide-each-fade img {
+  width: 100%;
+  object-fit: cover;
+}
