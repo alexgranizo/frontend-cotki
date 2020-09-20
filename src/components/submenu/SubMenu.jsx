@@ -6,8 +6,8 @@ const SubMenu = () => {
   return (
     <div className='top-submenu-container'>
       <div className='top-submenu-address'>
-        <div>
-          <Location height='18px' />
+        <div className='top-submenu-location'>
+          <Location height='14px' />
         </div>
         <p className='top-submenu-city'>Riobamba</p>
       </div>

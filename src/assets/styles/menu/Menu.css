@@ -13,11 +13,7 @@
   align-items: center;
   grid-template-areas: "brand brand form form form form form form form form form form form  account account  cart ";
 }
-@media screen and (max-width: 768px) {
-  .top-navbar {
-    grid-template-areas: "brand brand form form form form form form form form form form form  form account  cart ";
-  }
-}
+
 .menu-search {
   display: block;
   grid-area: form;
@@ -37,7 +33,15 @@
 .menu-cart {
   grid-area: cart;
 }
-
+@media screen and (max-width: 768px) {
+  .top-navbar {
+    display: flex;
+  }
+  .menu-account {
+    margin-left: 50%;
+    margin-right: 15px;
+  }
+}
 @media screen and (max-width: 480px) {
   .menu-search {
     display: none;

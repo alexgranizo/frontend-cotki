@@ -1,0 +1,21 @@
+.main-home-movile-container {
+  display: flex;
+  flex-direction: column;
+  /* background-image: url('http://localhost:8080/assets/static/'); */
+}
+.main-home-movile-title {
+  font-size: 1em;
+  margin: 5%;
+}
+.main-home-movile-title h1 {
+  text-transform: unset;
+  font-size: 1.5em;
+  color: #444444;
+  font-family: "Lato", sans-serif;
+  width: 100%;
+  text-align: center;
+}
+.main-home-movile-form {
+  display: block;
+  margin: 0 1em;
+}

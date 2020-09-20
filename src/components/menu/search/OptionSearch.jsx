@@ -1,6 +1,7 @@
-import React from "react";
+import React from 'react';
 
 function OptionSearch(props) {
-  return <option value={props.value}>{props.pasillo}</option>;
+  const { value, pasillo } = props;
+  return <option value={value}>{pasillo}</option>;
 }
 export default OptionSearch;

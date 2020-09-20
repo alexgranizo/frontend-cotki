@@ -14,7 +14,8 @@ const Location = (props) => {
       focusable={false}
       data-prefix='fas'
       data-icon='map-marker-alt'
-      className={`svg-inline--fa ${clase} fa-w-12`}
+      className='svg-inline--fa fa-w-12'
+      style={clase}
       role='img'
       xmlns='http://www.w3.org/2000/svg'
       viewBox='0 0 384 512'

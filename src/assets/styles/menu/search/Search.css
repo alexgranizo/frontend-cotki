@@ -19,6 +19,7 @@
   font-family: "Rubik", sans-serif;
   color: #333333;
   font-size: 80%;
+  padding-right: 20px;
 }
 .search-form-input:focus {
   outline: none;
@@ -26,8 +27,5 @@
 @media screen and (max-width: 768px) {
   .search-form-input {
     height: 35px;
-  }
-  .search-form-input {
-    width: 60%;
   }
 }

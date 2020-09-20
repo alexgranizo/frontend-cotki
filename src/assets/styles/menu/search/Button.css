@@ -25,7 +25,7 @@
   background: #ff3e11;
 }
 .button-searching-text {
-  background-image: url("http://localhost:8080/src/assets/static/images/search_icon.svg");
+  background-image: url("http://192.168.0.105:8080/src/assets/static/images/search_icon.svg");
   /* // background-position: 10px 8px; */
   background-repeat: no-repeat;
   background-size: cover;
