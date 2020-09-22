@@ -1,0 +1,10 @@
+.layout-item-categorie-container {
+  display: flex;
+  align-items: center;
+  margin-left: 0.8em;
+}
+.layout-item-categorie-container a {
+  font-size: 0.7em;
+  color: #5b5b5b;
+  display: flex;
+}

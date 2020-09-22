@@ -1,16 +1,27 @@
-.brand-logo {
+.brand-container {
   grid-area: brand;
   height: 100%;
-}
-.brand-logo a {
-  height: 100%;
   display: flex;
-  justify-content: flex-start;
   align-items: center;
 }
+.brand-menu-dropdown {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  outline: none;
+  border-radius: 50%;
+}
+.brand-menu-dropdown:hover {
+  border: 1px solid white;
+}
+
 .brand-logo-svg {
   height: 40px;
   width: 80px;
+  margin-left: 10px;
 }
 @media screen and (max-width: 480px) {
   .brand-logo-svg {

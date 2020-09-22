@@ -1,6 +1,5 @@
 .main-home-movile-container {
-  display: flex;
-  flex-direction: column;
+  display: none;
   /* background-image: url('http://localhost:8080/assets/static/'); */
 }
 .main-home-movile-title {
@@ -18,4 +17,10 @@
 .main-home-movile-form {
   display: block;
   margin: 0 1em;
+}
+@media screen and (max-width: 768px) {
+  .main-home-movile-container {
+    display: flex;
+    flex-direction: column;
+  }
 }
