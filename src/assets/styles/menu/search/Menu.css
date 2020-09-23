@@ -2,7 +2,7 @@
   cursor: pointer;
   position: relative;
   top: -5px;
-  height: 40px;
+  height: 35px;
   float: left;
   width: auto;
   white-space: nowrap;
@@ -13,7 +13,7 @@
   color: #333333;
 }
 .search-menu-navbar {
-  height: 40px;
+  height: 35px;
   top: 5px;
   background-color: #f3f3f3;
   border-left: 1px solid #f3f3f3;
@@ -24,7 +24,7 @@
   margin: 0;
   overflow: hidden;
   border-right: 1px solid #cdcdcd;
-  border-radius: 4px 0 0 4px;
+  border-radius: 14px 0 0 14px;
   background-position: 0 -532px;
   display: flex;
   color: rgb(109, 109, 109);

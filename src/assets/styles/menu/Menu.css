@@ -1,3 +1,4 @@
+
 .top-navbar {
   color: #fff;
   background: #333333;
@@ -17,8 +18,8 @@
 .menu-search {
   display: block;
   grid-area: form;
-  padding-left: 4vw;
-  padding-right: 4vw;
+  padding-left: 9vw;
+  padding-right: 9vw;
 }
 .menu-account {
   grid-area: account;

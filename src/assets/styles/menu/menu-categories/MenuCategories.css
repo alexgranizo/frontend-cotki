@@ -1,0 +1,55 @@
+.top-menu-initial-state{
+    display: none;
+}
+
+@keyframes category {
+    from {
+        left: -30%;
+        
+    }
+    to {
+        left: 0;
+    }
+}
+.top-menu-categories-container {
+  width: 30%;
+  height: 100%;
+  margin: 0;
+  z-index: 12;
+  padding-left: 0;
+  display: flex;
+  position: fixed;
+  top: 0;
+  background-color: #d3d3d3;
+  animation: category 0.5s;
+  
+  animation-fill-mode: forwards;
+}
+@keyframes willGo {
+    from {
+        left: 0;
+    }
+    to {
+        transform: translateX(-30%);
+        left: -30%;
+     
+    }
+}
+.top-menu-will-go{
+   
+    animation: willGo 0.5s;
+    animation-fill-mode: forwards;
+}
+
+.layer-container-gray {
+  background: #333333;
+  opacity: 0.7;
+  z-index: 11;
+  width: 100vw;
+  height: calc(100vh + 100px);
+  position: absolute;
+    top: -60px;
+  overflow: hidden;
+}
+
+

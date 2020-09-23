@@ -4,13 +4,13 @@ import '../../assets/styles/menu/Brand.css';
 import MenuCategories from '../svgs/MenuCategories';
 
 const Brand = (props) => {
-  const { handleClick, style } = props;
+  const { handleClick } = props;
 
   return (
     <div className='brand-container'>
-      <div href='/' className={style} tabIndex={0} role='button' onClick={handleClick}>
+      <button id='button-brand-menu' type='button' href='/' className='brand-menu-dropdown' tabIndex={0} onClick={handleClick}>
         <MenuCategories color='white' />
-      </div>
+      </button>
       <a href='/' className='brand-logo'>
         <Logo height='50px' className='brand-logo-svg' />
       </a>

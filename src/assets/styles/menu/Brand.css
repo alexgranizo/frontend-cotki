@@ -13,6 +13,7 @@
   cursor: pointer;
   outline: none;
   border-radius: 50%;
+  background: none;
 }
 .brand-menu-dropdown:hover {
   border: 1px solid white;
