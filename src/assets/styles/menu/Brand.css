@@ -5,15 +5,18 @@
   align-items: center;
 }
 .brand-menu-dropdown {
-  width: 40px;
-  height: 40px;
+  width: 35px;
+  height: 35px;
   display: flex;
   justify-content: center;
   align-items: center;
   cursor: pointer;
   outline: none;
-  border-radius: 50%;
-  background: none;
+  border-style: none;
+  user-select: none;
+  appearance: none;
+  background: transparent;
+  
 }
 .brand-menu-dropdown:hover {
   border: 1px solid white;

@@ -1,0 +1,30 @@
+.prev-arrow{
+    width: 100px;
+    background: transparent;
+    border: none;
+    height: 35vh;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hover-arrow{
+    background-color: rgba(75, 75, 75, 0.3);
+}
+.hover-arrow-next{
+    background-color: rgba(75, 75, 75, 0.3);
+}
+
+.next-arrow{
+    width: 100px;
+    background: transparent;
+    border: none;
+    height: 35vh;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hover-arrow-next{
+    background-color: rgba(75, 75, 75, 0.3);
+}
