@@ -1,0 +1,14 @@
+.layout-item-hooks-container {
+  height: 100%;
+  width: 100%;
+}
+.layout-item-hooks-container > a {
+  height: 100%;
+  width: auto;
+}
+
+.layout-item-hooks-container > a > img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}

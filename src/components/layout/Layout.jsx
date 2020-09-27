@@ -1,11 +1,13 @@
 import React from 'react';
-import Categories from './categories/Categories';
+import Hooks from './hooks/Hooks';
 import '../../assets/styles/layout/Layout.css';
 
 const Layout = () => {
   return (
     <div className='layout-home-container'>
-      <Categories />
+      <div className='layout-home-hooks'>
+        <Hooks />
+      </div>
     </div>
   );
 };

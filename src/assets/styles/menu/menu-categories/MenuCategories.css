@@ -12,12 +12,13 @@
     }
 }
 .top-menu-categories-container {
-  width: 30%;
+  width: 25%;
   height: 100%;
   margin: 0;
   z-index: 12;
   padding-left: 0;
   display: flex;
+  flex-direction: column;
   position: fixed;
   top: 0;
   background-color: #d3d3d3;

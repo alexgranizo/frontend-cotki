@@ -1,0 +1,8 @@
+.categories-menu-navbar-container{
+    display: flex;
+    height: 40px;
+    background-color: #333333;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}

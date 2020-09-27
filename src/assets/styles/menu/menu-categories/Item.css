@@ -1,0 +1,12 @@
+.menu-categories-item-container {
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+
+}
+.menu-categories-item-container span {
+    margin-left: 10px;
+}
+.menu-categories-item-container:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+}

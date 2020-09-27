@@ -1,0 +1,52 @@
+.menu-categories-container-one {
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 33.3%);
+  grid-gap: 2px;
+  grid-template-areas:
+    " one one  "
+    "two three  "
+    "four four";
+}
+.menu-categories-item-one {
+  height: 100%;
+  width: auto;
+  grid-area: one;
+}
+.menu-categories-item-one img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.menu-categories-item-two {
+  height: 100%;
+  width: 100%;
+  grid-area: two;
+}
+.menu-categories-item-two img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.menu-categories-item-three {
+  height: 100%;
+  width: 100%;
+  grid-area: three;
+}
+.menu-categories-item-three img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.menu-categories-item-four {
+  height: 100%;
+  width: 100%;
+  grid-area: four;
+}
+.menu-categories-item-four img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}

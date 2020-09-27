@@ -13,7 +13,7 @@ const Slider = () => {
 
   const properties = {
     duration: 5000,
-    transitionDuration: 500,
+    transitionDuration: 300,
     pauseOnHover: true,
     prevArrow: <div style={{ width: '30px', marginRight: '-30px' }}><PrevArrow /></div>,
     nextArrow: <div style={{ width: '30px', marginLeft: '-100px' }}><NextArrow /></div>,

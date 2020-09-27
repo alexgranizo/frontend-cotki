@@ -1,0 +1,11 @@
+.layout-categories-container {
+  height: 100%;
+  width: auto;
+  display: grid;
+
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 100%;
+  grid-template-areas: " one two three four five ";
+  grid-gap: 15px;
+  flex-wrap: wrap;
+}

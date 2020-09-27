@@ -1,0 +1,66 @@
+.menu-categories-container-two {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas:
+    "one two"
+    "one three";
+  grid-gap: 3px;
+}
+
+.menu-categories-two-item-one {
+  grid-area: one;
+  width: 100%;
+  height: 100%;
+  transition: 0.4s;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  position: relative;
+}
+.menu-categories-two-item-one-animation-one,
+.menu-categories-two-item-one-animation-two {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.menu-categories-two-item-one-animation-one {
+  width: 100%;
+}
+.menu-categories-two-item-one-animation-two {
+  -webkit-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}
+.menu-categories-two-item-one:hover {
+  transform: rotate3d(0, 1, 0, 180deg);
+}
+.menu-categories-two-item-one img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.menu-categories-two-item-two {
+  grid-area: two;
+  width: 100%;
+  height: 100%;
+}
+.menu-categories-two-item-two img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.menu-categories-two-item-three {
+  grid-area: three;
+  width: 100%;
+  height: 100%;
+}
+.menu-categories-two-item-three img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}

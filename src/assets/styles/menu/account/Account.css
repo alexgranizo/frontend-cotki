@@ -5,12 +5,11 @@
 }
 .top-account-options {
   position: absolute;
-  z-index: 50;
-  color: #ff3e11;
+  z-index: 10;
   background-color: #efefef;
   top: 60px;
   display: none;
-  padding: 0.8em;
+  padding:  0.8em;
 }
 .top-menu-up {
   width: 0;
