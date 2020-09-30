@@ -11,11 +11,21 @@ const Categories = () => {
 
   return (
     <div className='layout-categories-container'>
-      <TwoItem />
-      <Item img={Coca} alt='aromatel' href='/' />
-      <Item img={Solar} alt='aromatel' href='/' />
-      <Item img={One} alt='aromatel' href='/' />
       <OneItem />
+
+      <div className='middle-layout-categories'>
+        <div className='middle-layout-title'>
+          <h2>
+            hola como te va
+          </h2>
+        </div>
+        <div className='middle-layout-items'>
+          <Item img={Coca} alt='aromatel' href='/' />
+          <Item img={Solar} alt='aromatel' href='/' />
+          <Item img={One} alt='aromatel' href='/' />
+        </div>
+      </div>
+      <TwoItem />
 
     </div>
   );

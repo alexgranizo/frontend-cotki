@@ -5,7 +5,27 @@
 
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: 100%;
-  grid-template-areas: " one two three four five ";
+  grid-template-areas: " one two two two three ";
   grid-gap: 15px;
   flex-wrap: wrap;
+}
+.middle-layout-categories {
+  grid-area: two;
+  display: flex;
+  flex-direction: column;
+}
+.middle-layout-title {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.middle-layout-title h2 {
+  color: #333333;
+  font-size: 17px;
+  text-align: center;
+  display: block;
+  margin: 8px 5px;
+}
+.middle-layout-items {
+  display: flex;
 }

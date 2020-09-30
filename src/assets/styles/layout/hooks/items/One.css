@@ -1,6 +1,20 @@
 .menu-categories-container-one {
   width: 100%;
-  height: auto;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.menu-categories-title {
+  text-align: center;
+}
+.menu-categories-title h3 {
+  font-size: 17px;
+  text-transform: unset;
+  margin: 8px 5px;
+}
+.menu-categories-items-container {
+  width: 100%;
+  height: 100%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(3, 33.3%);
@@ -10,6 +24,7 @@
     "two three  "
     "four four";
 }
+
 .menu-categories-item-one {
   height: 100%;
   width: auto;

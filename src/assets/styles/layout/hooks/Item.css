@@ -1,6 +1,7 @@
 .layout-item-hooks-container {
   height: 100%;
   width: 100%;
+  margin: 0 5px;
 }
 .layout-item-hooks-container > a {
   height: 100%;

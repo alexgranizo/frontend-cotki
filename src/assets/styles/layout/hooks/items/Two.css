@@ -1,6 +1,10 @@
 .menu-categories-container-two {
   height: 100%;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.menu-categories-two-items {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
@@ -8,6 +12,15 @@
     "one two"
     "one three";
   grid-gap: 3px;
+}
+.menu-categories-two-title {
+  display: block;
+  text-align: center;
+}
+.menu-categories-two-title h2 {
+  font-size: 17px;
+  text-transform: unset;
+  margin: 8px 5px;
 }
 
 .menu-categories-two-item-one {
@@ -26,18 +39,21 @@
   position: absolute;
   top: 0;
   left: 0;
+  transition: all ease 0.5s;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
 .menu-categories-two-item-one-animation-one {
   width: 100%;
+  backface-visibility: hidden;
 }
-.menu-categories-two-item-one-animation-two {
+.animation-event-one {
   -webkit-transform: rotateY(180deg);
   transform: rotateY(180deg);
+  backface-visibility: hidden;
 }
-.menu-categories-two-item-one:hover {
-  transform: rotate3d(0, 1, 0, 180deg);
+.animation-event-two {
+  transform: rotateY(180deg);
 }
 .menu-categories-two-item-one img {
   height: 100%;
