@@ -1,26 +1,30 @@
 .menu-categories-container-two {
-  height: 100%;
-  width: 100%;
+  background: white;
+  height: 340px;
+  width: auto;
   display: flex;
   flex-direction: column;
 }
 .menu-categories-two-items {
+  padding: 15px;
+  height: 100%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 135px);
   grid-template-areas:
     "one two"
     "one three";
   grid-gap: 3px;
 }
 .menu-categories-two-title {
-  display: block;
-  text-align: center;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
 }
 .menu-categories-two-title h2 {
   font-size: 17px;
   text-transform: unset;
-  margin: 8px 5px;
 }
 
 .menu-categories-two-item-one {

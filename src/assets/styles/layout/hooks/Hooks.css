@@ -3,29 +3,33 @@
   width: auto;
   display: grid;
 
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 100%;
-  grid-template-areas: " one two two two three ";
-  grid-gap: 15px;
+  grid-template-areas: " one two three ";
+  grid-gap: 25px;
   flex-wrap: wrap;
 }
 .middle-layout-categories {
+  background: white;
+  height: 340px;
   grid-area: two;
   display: flex;
   flex-direction: column;
 }
 .middle-layout-title {
   width: 100%;
-  height: auto;
-  display: block;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
 }
 .middle-layout-title h2 {
   color: #333333;
   font-size: 17px;
-  text-align: center;
   display: block;
-  margin: 8px 5px;
 }
 .middle-layout-items {
+  padding: 15px;
+  height: 88%;
   display: flex;
 }

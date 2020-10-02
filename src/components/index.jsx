@@ -8,6 +8,18 @@ import Searching from './movile/Searching';
 import Layout from './layout/Layout';
 import TopMenuCategories from './menu/categories-menu/MenuCategories';
 import Layer from './menu/categories-menu/Layer';
+import ProductSlide from './product-slide/Slider';
+
+//imagenes del slide
+import one from '../assets/static/images/products/aromatel.jpg';
+import two from '../assets/static/images/products/floral.jpg';
+import three from '../assets/static/images/products/40375961-01-BASEIMAGE-Midres.jpg';
+import four from '../assets/static/images/products/7861048600743.png';
+import five from '../assets/static/images/products/adadwwr.jpg';
+import six from '../assets/static/images/products/aromatel-morado.jpg';
+import seven from '../assets/static/images/products/asaswe.jpg';
+import eight from '../assets/static/images/products/deja1.jpg';
+import nine from '../assets/static/images/products/lava.jpg';
 
 const Index = () => {
   const [menu, setMenu] = useState({
@@ -59,6 +71,9 @@ const Index = () => {
       </div>
       <div>
         <Layout />
+      </div>
+      <div>
+        <ProductSlide images={[one, two, three, four, five, six, seven, eight, nine]} title='hola mundo' />
       </div>
     </div>
   );

@@ -2,8 +2,8 @@
   display: flex;
   justify-content: space-between;
   width: auto;
-  height: 300px;
-  margin: 10px 2em;
+  height: 100%;
+  margin: 1.7em 2em;
 }
 .layout-home-hooks {
   margin: 0;

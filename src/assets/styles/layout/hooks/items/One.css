@@ -1,23 +1,29 @@
 .menu-categories-container-one {
+  grid-area: one;
   width: 100%;
-  height: 100%;
+  height: 340px;
   display: flex;
   flex-direction: column;
+  background-color: white;
 }
 .menu-categories-title {
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
   text-align: center;
 }
 .menu-categories-title h3 {
   font-size: 17px;
   text-transform: unset;
-  margin: 8px 5px;
 }
 .menu-categories-items-container {
+  padding: 15px;
   width: 100%;
-  height: 100%;
+  height: auto;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(3, 33.3%);
+  grid-template-rows: repeat(3, 90px);
   grid-gap: 2px;
   grid-template-areas:
     " one one  "
