@@ -1,15 +1,17 @@
 .top-menu-account {
-  cursor: pointer;
   height: 100%;
   width: 100%;
+  position: relative;
+  display: block;
 }
 .top-account-options {
   position: absolute;
-  z-index: 10;
+  z-index: 2;
   background-color: #efefef;
-  top: 60px;
+  top: 48px;
+  right: -115px;
   display: none;
-  padding:  0.8em;
+  padding: 0.8em;
 }
 .top-menu-up {
   width: 0;
@@ -17,12 +19,14 @@
   border-right: 20px solid transparent;
   border-left: 20px solid transparent;
   border-bottom: 20px solid #efefef;
-  position: relative;
-  top: -28px;
+  position: absolute;
+  top: -8px;
+  left: 0;
 }
 
 .top-account-options ul {
   padding: 0;
+  position: relative;
 }
 .top-account-options li {
   font-size: 14px;
@@ -35,22 +39,28 @@
   display: flex;
   flex-direction: column;
 }
-.top-account-icon {
-  width: 100%;
+.top-account-profile {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
   height: 100%;
+  width: 100%;
+}
+.top-account-icon {
+  width: 35px;
+  height: 35px;
   display: flex;
   justify-content: center;
+  position: relative;
+  right: -30px;
   align-items: center;
   font-size: 0.9em;
   font-family: "Rubik", sans-serif;
 }
-.top-account-profile {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-  width: 100%;
+.top-account-icon:hover {
+  border: 1px solid white;
 }
+
 .top-account-icon span {
   margin-left: 0.3rem;
   font-size: 0.9em;
