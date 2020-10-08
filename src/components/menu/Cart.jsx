@@ -11,7 +11,7 @@ const Cart = () => {
         alt='Carrito de compras Cotki'
       />
       <div className='top-counter-cart'>
-        <span>0</span>
+        <span>$ 100.37</span>
       </div>
     </div>
   );

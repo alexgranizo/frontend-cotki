@@ -9,6 +9,7 @@ import Layout from './layout/Layout';
 import TopMenuCategories from './menu/categories-menu/MenuCategories';
 import Layer from './menu/categories-menu/Layer';
 import ProductSlide from './product-slide/Slider';
+import Info from './info/Info';
 
 //imagenes del slide
 import one from '../assets/static/images/products/aromatel.jpg';
@@ -69,6 +70,7 @@ const Index = () => {
         <Slider />
         <Searching />
       </div>
+      <Info />
       <div>
         <Layout />
       </div>

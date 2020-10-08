@@ -1,6 +1,6 @@
-import React from "react";
-import Menu from "./Menu";
-import "../../../assets/styles/menu/account/Account.css";
+import React from 'react';
+import Menu from './Menu';
+import '../../../assets/styles/menu/account/Account.css';
 
 class Account extends React.Component {
   constructor(props) {
@@ -20,14 +20,14 @@ class Account extends React.Component {
     this.setState({
       active: false,
     });
-    console.log("sI ESTAQ FUFNCJKXKS");
+    console.log('sI ESTAQ FUFNCJKXKS');
   };
 
   render() {
     const { active } = this.state;
-    let clase = "top-account-options";
+    let clase = 'top-account-options';
     if (active) {
-      clase += " top-account-unfold";
+      clase += ' top-account-unfold';
     }
     return (
       <div className='top-menu-account' id='account'>
@@ -35,14 +35,16 @@ class Account extends React.Component {
           <div
             className='top-account-icon'
             onMouseEnter={this.handleMouseOver}
-            onMouseLeave={this.handleMouseLeave}>
+            onMouseLeave={this.handleMouseLeave}
+          >
             <svg
               width='1.4em'
               height='1.4em'
               viewBox='0 0 16 16'
               className='bi bi-person-fill account-person-icon'
               fill='currentColor'
-              xmlns='http://www.w3.org/2000/svg'>
+              xmlns='http://www.w3.org/2000/svg'
+            >
               <path
                 fillRule='evenodd'
                 d='M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z'
