@@ -31,11 +31,11 @@ class Account extends React.Component {
     }
     return (
       <div className='top-menu-account' id='account'>
-        <div className='top-account-profile'>
+        <div className='top-account-profile' onMouseEnter={this.handleMouseOver}
+            onMouseLeave={this.handleMouseLeave}>
           <div
             className='top-account-icon'
-            onMouseEnter={this.handleMouseOver}
-            onMouseLeave={this.handleMouseLeave}
+            
           >
             <svg
               width='1.4em'
@@ -50,8 +50,11 @@ class Account extends React.Component {
                 d='M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z'
               />
             </svg>
-            <Menu className={clase} up='top-menu-up' />
+            
+              <span className="title-menu-account-top">Hola,<br />Inicia aquí</span>
+           
           </div>
+           <Menu className={clase} up='top-menu-up' />
         </div>
       </div>
     );

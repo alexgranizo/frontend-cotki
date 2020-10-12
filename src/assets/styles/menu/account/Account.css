@@ -45,14 +45,20 @@
   align-items: center;
   height: 100%;
   width: 100%;
+  margin: 0 0 0 20%;
+}
+.account-person-icon {
+  margin-right: 10px;
+}
+.title-menu-account-top {
+  text-align: start;
 }
 .top-account-icon {
-  width: 35px;
+  width: 100%;
   height: 35px;
   display: flex;
   justify-content: center;
   position: relative;
-  right: -30px;
   align-items: center;
   font-size: 0.9em;
   font-family: "Rubik", sans-serif;

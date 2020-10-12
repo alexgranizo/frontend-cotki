@@ -51,3 +51,9 @@
     height: 100px;
     width: 100px;
 }
+.infohome-items > div > h3 {
+    height: 20%;
+    color: #282b33;
+    font-size: 0.7em;
+    text-transform: unset;
+}

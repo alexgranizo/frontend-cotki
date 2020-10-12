@@ -21,6 +21,7 @@ import six from '../assets/static/images/products/aromatel-morado.jpg';
 import seven from '../assets/static/images/products/asaswe.jpg';
 import eight from '../assets/static/images/products/deja1.jpg';
 import nine from '../assets/static/images/products/lava.jpg';
+import Footer from './footer/Footer';
 
 const Index = () => {
   const [menu, setMenu] = useState({
@@ -77,6 +78,7 @@ const Index = () => {
       <div>
         <ProductSlide images={[one, two, three, four, five, six, seven, eight, nine]} title='hola mundo' />
       </div>
+      <Footer />
     </div>
   );
 };
