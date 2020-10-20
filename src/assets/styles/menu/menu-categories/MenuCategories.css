@@ -1,15 +1,21 @@
-.top-menu-initial-state{
-    display: none;
+.top-menu-initial-state {
+  display: none;
+}
+.clase-cerrada-menu {
+  position: absolute;
+  right: -40px;
+  top: 10px;
+  cursor: pointer;
+  z-index: 2;
 }
 
 @keyframes category {
-    from {
-        left: -30%;
-        
-    }
-    to {
-        left: 0;
-    }
+  from {
+    left: -30%;
+  }
+  to {
+    left: 0;
+  }
 }
 .top-menu-categories-container {
   width: 25%;
@@ -23,23 +29,21 @@
   top: 0;
   background-color: #d3d3d3;
   animation: category 0.5s;
-  
+
   animation-fill-mode: forwards;
 }
 @keyframes willGo {
-    from {
-        left: 0;
-    }
-    to {
-        transform: translateX(-30%);
-        left: -30%;
-     
-    }
+  from {
+    left: 0;
+  }
+  to {
+    transform: translateX(-30%);
+    left: -30%;
+  }
 }
-.top-menu-will-go{
-   
-    animation: willGo 0.5s;
-    animation-fill-mode: forwards;
+.top-menu-will-go {
+  animation: willGo 0.5s;
+  animation-fill-mode: forwards;
 }
 
 .layer-container-gray {
@@ -49,8 +53,6 @@
   width: 100vw;
   height: calc(100vh + 100px);
   position: absolute;
-    top: -60px;
+  top: -60px;
   overflow: hidden;
 }
-
-
