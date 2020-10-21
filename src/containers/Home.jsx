@@ -1,15 +1,15 @@
 import React, { useState } from 'react';
 
-import Menu from './menu/Menu';
+import Menu from '../components/menu/Menu';
 import '../assets/styles/global/index.css';
-import SubMenu from './submenu/SubMenu';
-import Slider from './slide-home/Slide';
-import Searching from './movile/Searching';
-import Layout from './layout/Layout';
-import TopMenuCategories from './menu/categories-menu/MenuCategories';
-import Layer from './menu/categories-menu/Layer';
-import ProductSlide from './product-slide/Slider';
-import Info from './info/Info';
+import SubMenu from '../components/submenu/SubMenu';
+import Slider from '../components/slide-home/Slide';
+import Searching from '../components/movile/Searching';
+import Layout from '../components/layout/Layout';
+import TopMenuCategories from '../components/menu/categories-menu/MenuCategories';
+import Layer from '../components/menu/categories-menu/Layer';
+import ProductSlide from '../components/product-slide/Slider';
+import Info from '../components/info/Info';
 
 //imagenes del slide
 import one from '../assets/static/images/products/aromatel.jpg';
@@ -21,7 +21,7 @@ import six from '../assets/static/images/products/aromatel-morado.jpg';
 import seven from '../assets/static/images/products/asaswe.jpg';
 import eight from '../assets/static/images/products/deja1.jpg';
 import nine from '../assets/static/images/products/lava.jpg';
-import Footer from './footer/Footer';
+import Footer from '../components/footer/Footer';
 
 const Index = () => {
   const [menu, setMenu] = useState({
@@ -63,7 +63,7 @@ const Index = () => {
   return (
     <div className='container-app'>
       <Menu handleClick={handleClick} />
-      <TopMenuCategories style={style} />
+      <TopMenuCategories style={style} closeMenu={handleClick} />
 
       <Layer handleClick={handleClick} style={layer} />
       <SubMenu />
