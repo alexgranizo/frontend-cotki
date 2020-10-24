@@ -1,9 +1,9 @@
-import React from 'react';
-import Brand from './Brand';
-import Search from './search/Search';
-import Cart from './Cart';
-import Account from './account/Account';
-import '../../assets/styles/menu/Menu.css';
+import React from "react";
+import Brand from "./Brand";
+import Search from "./search/Search";
+import Cart from "./Cart";
+import Account from "./account/Account";
+import "../../assets/styles/menu/Menu.css";
 // import TopMenuCategories from './categories-menu/MenuCategories';
 // import Layer from './categories-menu/Layer';
 

@@ -15,14 +15,13 @@
   background-color: #efefef;
   top: 35px;
   display: none;
-  padding: 0.8em;
 }
 .top-menu-up {
   width: 0;
   height: 0;
-  border-right: 20px solid transparent;
-  border-left: 20px solid transparent;
-  border-bottom: 20px solid #efefef;
+  border-right: 15px solid transparent;
+  border-left: 15px solid transparent;
+  border-bottom: 10px solid #efefef;
   position: absolute;
   top: -5px;
   left: 0;
