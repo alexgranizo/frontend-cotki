@@ -1,59 +1,66 @@
 .infohome-container {
-    display: block;
-    /* text-align: center; */
-    font-family: 'Lato', sans-serif;
-    background-color: white;
-    margin: 1em 2em;
-    height: 200px;
+  display: block;
+  /* text-align: center; */
+  font-family: "Lato", sans-serif;
+  background-color: white;
+  margin: 1em 2em;
+  height: 200px;
 }
 .infohome-info {
-    width: 100%;
-    height: auto;
-    display: flex;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
 }
 .infohome-info h2 {
-    font-size: 1em;
-    color: #333;
-    text-transform: unset;
-    padding: 10px;
+  font-size: 1em;
+  color: #333;
+  text-transform: unset;
+  padding: 10px;
+}
+.infohome-info span {
+  font-size: 15px;
+}
+.infohome-info span:hover {
+  text-decoration: underline;
 }
 .infohome-items {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px;
 }
 .item-one {
-    height: 100px;
-    width: 100px;
+  height: 100px;
+  width: 100px;
 }
-.item-two  { 
-    height: 100px;
-    width: 100px;
+.item-two {
+  height: 100px;
+  width: 100px;
 }
 .item-three {
-    height: 100px;
-    width: 100px;
+  height: 100px;
+  width: 100px;
 }
-.item-four{ 
-    height: 100px;
-    width: 100px;
+.item-four {
+  height: 100px;
+  width: 100px;
 }
-.item-five{
-    height: 100px;
-    width: 100px;
+.item-five {
+  height: 100px;
+  width: 100px;
 }
-.item-six { 
-    height: 100px;
-    width: 100px;
+.item-six {
+  height: 100px;
+  width: 100px;
 }
 .item-seven {
-    height: 100px;
-    width: 100px;
+  height: 100px;
+  width: 100px;
 }
 .infohome-items > div > h3 {
-    height: 20%;
-    color: #282b33;
-    font-size: 0.7em;
-    text-transform: unset;
+  height: 20%;
+  color: #282b33;
+  font-size: 0.7em;
+  text-transform: unset;
 }

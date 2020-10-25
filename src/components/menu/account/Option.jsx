@@ -1,9 +1,9 @@
-import React from "react";
+import React from 'react';
 
 function Option(props) {
-  const { aName, href } = props;
+  const { aName, href, className } = props;
   return (
-    <li>
+    <li className={className}>
       <a href={href}>{aName}</a>
     </li>
   );

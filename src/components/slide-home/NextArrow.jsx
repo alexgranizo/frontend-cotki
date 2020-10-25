@@ -16,12 +16,13 @@ const NextArrow = () => {
   }
   if (style) {
     className = 'next-arrow';
-    color = 'white';
+    color = '#18191d';
   } else {
     className = 'next-arrow hover-arrow-next';
-    color = '#ff3e11';
+    color = 'white';
   }
   return (
+    // eslint-disable-next-line jsx-a11y/mouse-events-have-key-events
     <button type='button' className={className} onMouseOver={handleHover} onMouseLeave={handleLeave}>
       <ArrowRight color={color} height='25px' />
     </button>
