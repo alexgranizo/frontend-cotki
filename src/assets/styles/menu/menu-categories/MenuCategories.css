@@ -8,7 +8,10 @@
   cursor: pointer;
   z-index: 2;
 }
-
+.categorie-item-title div {
+  margin: 10px;
+  font-weight: 700;
+}
 @keyframes category {
   from {
     left: -30%;

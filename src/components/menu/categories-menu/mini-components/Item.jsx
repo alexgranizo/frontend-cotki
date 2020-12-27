@@ -5,8 +5,8 @@ const Item = (props) => {
   const { children, title } = props;
   return (
     <div className='menu-categories-item-container'>
-      {children}
       <span>{title}</span>
+      {children}
     </div>
   );
 };

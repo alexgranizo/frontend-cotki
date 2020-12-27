@@ -6,8 +6,8 @@ const ProductSlide = (props) => {
   const { images, title } = props;
 
   const fadeProperties = {
-    duration: 3000,
-    pauseOnHover: true,
+    transitionDuration: 400,
+    autoplay: false,
   };
 
   return (

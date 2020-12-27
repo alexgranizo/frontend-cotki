@@ -25,17 +25,17 @@
   background: #ff3e11;
 }
 .button-searching-text {
-  background-image: url("http://192.168.0.105:8080/src/assets/static/images/search_icon.svg");
+  background-image: url("http://192.168.1.11:8080/src/assets/static/images/search_icon.svg");
   /* // background-position: 10px 8px; */
   background-repeat: no-repeat;
   background-size: cover;
-  width: 28px;
-  height: 28px;
+  width: 23px;
+  height: 23px;
   text-indent: -600px;
   position: absolute;
   white-space: nowrap;
-  top: 2px;
-  left: 5px;
+  top: 5px;
+  left: 10px;
 }
 .button-searching-input {
   position: relative;
