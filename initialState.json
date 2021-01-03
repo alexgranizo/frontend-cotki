@@ -1,8 +1,0 @@
-{
-    "initialState": {
-        "shoppingCart": [],
-        "coversHome": [],
-        "offers": [],
-        "categories": [],
-    }
-}
