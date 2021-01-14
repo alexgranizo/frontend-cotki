@@ -1,65 +1,72 @@
 .footer {
-    background-color: #333333;
-    width: 100%;
-    height: auto;
-    color: white;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 320px 100px 50px;
-    grid-template-areas:
-      "we info others"
-      "legal legal legal"
-      "links links links";
-    padding: 2em;
-  }
-  .footer-container {
-    grid-area: we;
-  }
-  .footer-logo-cotki{
-    height: 80px;
-    width: auto;
-    display: flex;
-    justify-content: flex-start;
-    align-content: center;
-    align-items: center;
-  }
-  .logo img {
-    height: 100%;
-    width: auto;
-  }
-  .footer-description {
-    font-size: 0.9em;
-    color: rgb(231, 231, 231);
-    margin: 0.8em;
-  }
-  .footer-info {
-    grid-area: info;
-  }
-  .footer-others {
-    grid-area: others;
-  }
-  .footer-legal {
-    grid-area: legal;
-  }
-  .footer-links {
-    grid-area: links;
-    display: flex;
-    justify-content: space-evenly;
-  }
-  .links > a {
-    color: white;
-    font-size: 0.7em;
-  }
-  .footer-lines {
-    position: absolute;
-  }
-  .links > a:hover {
-    color: gray;
-    text-decoration: underline;
-  }
-  .footer-network {
-    display: flex;
-  }
-  .network-item {
-    margin: 0.5em;
-  }
+  background-color: #333333;
+  width: 100%;
+  height: auto;
+  color: white;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 320px 50px;
+  grid-template-areas:
+    "we info others"
+    "links links links";
+  padding: 2em;
+}
+.footer-container {
+  grid-area: we;
+}
+.footer-logo-cotki {
+  height: 50px;
+  width: auto;
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+  align-items: center;
+}
+.footer-logo-cotki > img {
+  height: 100%;
+}
+.logo img {
+  height: 100%;
+  width: auto;
+}
+.footer-description {
+  font-size: 0.9em;
+  color: rgb(231, 231, 231);
+  margin: 0.8em;
+}
+.footer-info {
+  padding: 0 20px 20px 20px;
+  text-align: center;
+  grid-area: info;
+}
+.footer-info h4 {
+  margin: 0 10px 10px 10px;
+}
+.footer-others {
+  grid-area: others;
+}
+.footer-legal {
+  grid-area: legal;
+}
+.footer-links {
+  grid-area: links;
+  display: flex;
+  justify-content: space-evenly;
+}
+.links > a {
+  color: white;
+  font-size: 0.7em;
+}
+.footer-lines {
+  position: absolute;
+}
+.links > a:hover {
+  color: gray;
+  text-decoration: underline;
+}
+.footer-network {
+  display: flex;
+}
+.network-item {
+  margin: 0.5em;
+}

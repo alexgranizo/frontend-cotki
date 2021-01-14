@@ -38,13 +38,12 @@ class Footer extends React.Component {
           </div>
         </div>
         <div className='footer-info'>
-          <h4>Conecta con nosotros en:</h4>
+          <h4>¿Quiénes somos?</h4>
           <div>
-            <span>hOLA COMO TE LLAMS</span>
+            <span>Trabaja con nosotros</span>
           </div>
         </div>
-        <div className='footer-others'>asd asd</div>
-        <div className='footer-legal'>asdasd</div>
+        <div className='footer-others'>Trabaja con nosotros</div>
 
         <div className='footer-links'>
           <hr width='100%' className='footer-lines' />
