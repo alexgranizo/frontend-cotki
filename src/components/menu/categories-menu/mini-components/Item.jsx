@@ -2,11 +2,11 @@ import React from 'react';
 import '../../../../assets/styles/menu/menu-categories/Item.css';
 
 const Item = (props) => {
-  const { children, title } = props;
+  // Lo he logrado perras
+  const { name } = props;
   return (
     <div className='menu-categories-item-container'>
-      <span>{title}</span>
-      {children}
+      <span>{name}</span>
     </div>
   );
 };

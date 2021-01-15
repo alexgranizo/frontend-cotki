@@ -1,10 +1,15 @@
 import React from 'react';
+import LoginContainer from '../components/sessions/LoginContainer';
+import BlackLogo from '../components/svgs/BlackLogo';
+import '../assets/styles/global/index.css';
 
 const Login = () => {
   return (
     <div>
-      hola mundo
-      <a href='http://192.168.1.15:8080/'>Estamos grabando...</a>
+      <a href='/'>
+        <BlackLogo width='100px' />
+      </a>
+      <LoginContainer />
     </div>
   );
 };
