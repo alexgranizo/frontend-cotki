@@ -11,9 +11,12 @@
 }
 .form-login > label input {
   width: 100%;
-  height: 40px;
+  height: 35px;
   font-size: 1em;
   margin: 7px 0;
+}
+.form-login > label input:focus {
+  outline: none;
 }
 .form-login .submit {
   width: 100%;
