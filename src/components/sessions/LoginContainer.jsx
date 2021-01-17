@@ -1,10 +1,18 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import FormLogin from './FormLogin';
 import '../../assets/styles/sessions/LoginContainer.css';
+import BlackLogo from '../svgs/BlackLogo';
 
 const LoginContainer = () => {
   return (
     <div className='login-dad'>
+      <div className='logo-return-home'>
+        <Link to='/' rel='canonical'>
+          <BlackLogo width='110px' />
+        </Link>
+      </div>
+      <div className='a-divisor' />
       <div className='login-container'>
         <h1>Inicia Sesión</h1>
         <FormLogin />
@@ -23,6 +31,7 @@ const LoginContainer = () => {
           </div>
         </div>
       </div>
+      <div className='footer-login' />
     </div>
   );
 };
