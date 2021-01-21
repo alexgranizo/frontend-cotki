@@ -1,17 +1,14 @@
 .login-dad {
+  background-color: white;
   width: 100%;
   height: 100vh;
-
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: start;
   overflow: hidden;
 }
-.logo-return-home {
-  margin: 5px 0;
-}
-.a-divisor {
+/* .a-divisor {
   display: block;
   width: 100%;
   height: 20px;
@@ -21,27 +18,18 @@
     rgba(0, 0, 0, 0.03) 3px,
     transparent
   );
-}
-.a-divisor::after {
+} */
+/* .a-divisor::after {
   content: "";
   background: linear-gradient(to right, #fff, rgba(255, 255, 255, 0), #fff);
-}
+} */
 .login-container {
-  width: 25%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  padding: 10px;
+  width: 360px;
+  margin: 0 auto;
   overflow: hidden;
 }
-.login-container h1 {
-  margin: 0.9em 0;
-  width: 100%;
-  font-size: 1.15em;
-  text-align: start;
-  text-transform: unset;
-  color: #333333;
-}
+
 .footer-login {
   background: rgb(255, 255, 255);
   background: linear-gradient(

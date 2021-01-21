@@ -6,35 +6,29 @@ const FormLogin = () => {
     <form className='form-login'>
       <label htmlFor='name'>
         Correo Electrónico
-        <input
-          type='email'
-          id='name'
-          name='name'
-          placeholder='P.ejemplo: (juancarlos@gmail.com)'
-        />
       </label>
-      <label>
+      <input
+        type='email'
+        id='name'
+        name='name'
+      />
+      <label htmlFor='password' className='password-input-name'>
         Contraseña
-        <input
-          type='password'
-          maxLength='10'
-          placeholder='Escribe una contrseña segura'
-        />
+        <a href='/' className='reset-password'>¿Olvidaste la contraseña?</a>
       </label>
+      <input
+        type='password'
+        id='password'
+        maxLength='20'
+      />
       <input
         className='submit'
         type='submit'
         placeholder='Iniciar seción'
       />
       <span>
-        Al Iniciar secion aceptas los
-        {' '}
-        <a href='/'>Terminos de uso</a>
-        {' '}
-        y la
-        <a href='/'> Política de privacidad</a>
-        {' '}
-        de COTKI
+        Al Iniciar sesion aceptas nuestros
+        <a href='/'> Terminos y condiciones </a>
       </span>
     </form>
   );

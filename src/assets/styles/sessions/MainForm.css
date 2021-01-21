@@ -1,0 +1,32 @@
+.main-title-session {
+  margin-bottom: 16px;
+}
+.main-form h1 {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  width: 100%;
+  font-size: 1.25em;
+  text-align: start;
+  text-transform: unset;
+  color: #333333;
+}
+.form-login-container {
+  border-top: 1px solid #eaecef;
+  border-radius: 5px;
+  padding: 20px;
+  background-color: #f6f8fa;
+  border: 1px solid #eaecef;
+}
+/* Enlace para registrarse */
+.button-for-register-container {
+  font-size: 0.9em;
+  width: 100%;
+  border: 1px solid #d8dee2;
+  padding: 15px 20px;
+  text-align: center;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+.button-for-register > a {
+  color: rgb(255 94 0);
+}

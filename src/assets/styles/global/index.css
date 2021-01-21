@@ -43,6 +43,9 @@ li {
 input {
   border: none;
 }
+input:focus {
+  outline: none;
+}
 
 button {
   cursor: pointer;
