@@ -1,6 +1,9 @@
 import React from 'react';
 import FormLogin from './FormLogin';
+import Facebook from '../svgs/LoginFacebook';
+
 import '../../assets/styles/sessions/MainForm.css';
+import LoginGoogle from '../svgs/LoginGoogle';
 
 const MainForm = () => {
   return (
@@ -14,21 +17,17 @@ const MainForm = () => {
       <div className='button-for-register-container'>
         <div className='button-for-register'>
           ¿Nuevo en cotki?
-          <span>   </span>
           <a href='/'>Crea una cuenta</a>
         </div>
       </div>
-      <div>
-        <div>Tambien puedes inciar sesion con </div>
-        <div>
+      <div className='login-rrss'>
+        <div className='title-login-rrss'>Inicio rápido con</div>
+        <div className='logo-login-rrss'>
           <a href='/'>
-            twitter
+            <LoginGoogle height='35px' />
           </a>
           <a href='/'>
-            hioa
-          </a>
-          <a href='/'>
-            ebook />
+            <Facebook height='35px' />
           </a>
         </div>
       </div>

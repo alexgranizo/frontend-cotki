@@ -28,5 +28,20 @@
   margin-top: 15px;
 }
 .button-for-register > a {
+  margin-left: 15px;
   color: rgb(255 94 0);
+}
+.login-rrss {
+  padding: 20px;
+}
+.title-login-rrss {
+  text-align: center;
+}
+.logo-login-rrss {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo-login-rrss > a {
+  margin: 8px;
 }
