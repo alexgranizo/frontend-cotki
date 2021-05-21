@@ -11,7 +11,7 @@ function Menu(props) {
     >
       <div className={up} />
       <div className='buttons-menu-account'>
-        <button type='button' className='login-button-account'><a href='http://192.168.1.5:8080/login'>Iniciar sesión</a></button>
+        <button type='button' className='login-button-account'><a href='http://192.168.1.7:8080/login'>Iniciar sesión</a></button>
         <div className='create-link-account'>
           O si eres nuevo
           {' '}
