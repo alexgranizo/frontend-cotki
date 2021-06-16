@@ -3,16 +3,23 @@
   width: 100%;
   height: auto;
   color: white;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 240px 50px;
-  grid-template-areas:
-    "we info others"
-    "links links links";
-  padding: 2em;
+
+  /* padding: 2em; */
 }
 .footer-container {
   grid-area: we;
+  padding: 20px;
+}
+.footer-capture {
+  margin: 0 2em;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 85% 15%;
+  grid-template-areas:
+    "we info others"
+    "links links links";
+  width: 100%;
+  height: auto;
 }
 .footer-logo-cotki {
   height: 50px;
@@ -35,7 +42,7 @@
   margin: 0.8em;
 }
 .footer-info {
-  padding: 0 20px 20px 20px;
+  padding: 20px;
   text-align: center;
   grid-area: info;
 }
@@ -54,7 +61,7 @@
   text-decoration: underline;
 }
 .footer-others {
-  padding: 0 20px 20px 20px;
+  padding: 20px;
   text-align: center;
   grid-area: others;
 }
@@ -73,8 +80,13 @@
 }
 .footer-links {
   grid-area: links;
+}
+.footer-links-after {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+  align-items: center;
 }
 .links > a {
   color: white;
